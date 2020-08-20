@@ -10,5 +10,9 @@ Người tạo ra nền tảng tìm việc làm 123job.vn gồm
 - Công cụ tính lương gross sang net: https://wiki.123job.vn/gross-to-net
 - Trắc nghiệm tính cách MBTI: https://wiki.123job.vn/mbti (16 kiểu tính cách)
 
+# Profile
+- Facebook: https://www.facebook.com/JimMeaes
+- Github: https://github.com/Jimmea
+
 # Tags
 Cover_letter, CV , resume_template, mau_cv, mẫu_cv
