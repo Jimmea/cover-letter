@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi" class="off-canvas">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Tạo mẫu thư xin việc Online</title>
+    <meta name="description" content="Tạo mẫu thư xin việc Online">
+    <meta name="google-site-verification" content="sHB_kIyLvpmytXDQtZiGe9daQFRc-ZRMsYPi6_oPQVc">
+    <meta name="revisit-after" content="1 days">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/slick.css" type="text/css">
+    <link rel="stylesheet" href="./css/slick-theme.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <script src="js/plugins/jquery.min.js"></script>
+</head>
+<body>
+<div id="btn-shadow"></div>
+<link rel="stylesheet" href="./css/lth.css" type="text/css">
+<style type="text/css">
+    body {
+        background: #e9ebee;
+    }
+    .blog-hd {
+        display: table;
+        width: 100%;
+    }
+    #page-letter {
+        margin-top: 15px;
+    }
+    #form-letter {
+        background: #fff;
+    }
+    #a {
+        display: table;
+        width: 100%
+    }
+
+    @media only screen and (max-width: 430px) {
+        .el-message-box {
+            width: 100%;
+        }
+    }
+</style>
+<link rel="stylesheet" href="./css/cropper.css" type="text/css">
+<script src="js/plugins/jquery-ui.min.js"></script>
+<div class="blog-hd" id="page-taocv">
+    <div class="clr"></div>
+    <div id="cvo-toolbar">
+        <div class="toolbar-global-controls">
+            <div class="ctr">
+                <div class="item" id="cvo-toolbar-lang">
+                    <div class="title">Ngôn ngữ</div>
+                    <div class="options">
+                        <span class="flag btn-lang-option vi active" data-lang="vi">
+                        <img src="./img/vi.png">
+                        <i class="flag-selected"></i>
+                        </span>
+                        <span class="flag btn-lang-option en" data-lang="en">
+                        <img src="./img/en.png">
+                        <i class="flag-selected"></i>
+                        </span>
+                        <span class="flag btn-lang-option jp" data-lang="jp">
+                        <img src="./img/jp.png">
+                        <i class="flag-selected"></i>
+                        </span>
+                        <span class="flag btn-lang-option cn" data-lang="cn">
+                        <img src="./img/cn.png">
+                        <i class="flag-selected"></i>
+                        </span>
+                        <span class="flag btn-lang-option kr" data-lang="kr">
+                        <img src="./img/kr.png">
+                        <i class="flag-selected"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="item" id="toolbar-color">
+                    <div class="title">Tông màu</div>
+                    <div class="options">
+                        <span class="color active" style="background-color:#9e325e" data-color="9e325e"><i
+                                class="fa fa-check"></i></span>
+                        <span class="color " style="background-color:#1676bf" data-color="1676bf"><i
+                                class="fa fa-check"></i></span>
+                        <span class="color " style="background-color:#038c8c" data-color="038c8c"><i
+                                class="fa fa-check"></i></span>
+                        <span class="color " style="background-color:#d9320d" data-color="d9320d"><i
+                                class="fa fa-check"></i></span>
+                    </div>
+                </div>
+                <div class="item" id="toolbar-font">
+                    <div class="title">Font chữ</div>
+                    <select name="font" id="font-selector" style="width: 150px;">
+                        <option value="Roboto" selected="">Roboto</option>
+                        <option value="Tahoma">Tahoma</option>
+                        <option value="Arial">Arial</option>
+                        <option value="sun-exta">sun-exta</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <div class="title">Cỡ chữ</div>
+                    <div class="options">
+                        <span class="fontsize " data-size="small"><i class="fa fa-font"></i></span>
+                        <span class="fontsize active" data-size="normal"><i class="fa fa-font"></i></span>
+                        <span class="fontsize " data-size="large"><i class="fa fa-font"></i></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="title">Cách dòng</div>
+                    <div class="options">
+                        <span class="line-height " data-spacing="small"><i class="fa fa-arrows-v"></i></span>
+                        <span class="line-height active" data-spacing="normal"><i class="fa fa-arrows-v"></i></span>
+                        <span class="line-height " data-spacing="large"><i class="fa fa-arrows-v"></i></span>
+
+                    </div>
+                </div>
+                <div class="item button btn-topcv-primary" id="btn-save-file">
+                    <div class="title">Lưu và tải thư</div>
+                    <i class="fa fa-floppy-o"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="ctr">
+        <link rel="stylesheet" href="./css/letter.css" type="text/css">
+        <link id="cv-font" rel="stylesheet" href="./css/Roboto.css" type="text/css">
+        <link id="cv-font-size" rel="stylesheet" href="./css/font-size/normal.css" type="text/css">
+        <link id="cv-cpacing-css" rel="stylesheet" href="./css/font-spacing/normal.css" type="text/css">
+        <div id="page-letter">
+            <div id="letter-title" class="non-printable" contenteditable="true" cvo-placeholder="Tiêu đề CV">Mẫu CV 123job
+            </div>
+            <div id="form-letter">
+                <div id="content">
+                    <!-- bg -->
+                    <div id="bg">
+                        <!-- lt-top  -->
+                        <div id="lt-top">
+                            <div id="cvo-profile-avatar-wraper">
+                                <img id="cvo-profile-avatar" cvo-form-field="true"
+                                     src="./img/no_avatar.jpg">
+                            </div>
+                            <div class="box-hvt">
+                                <h1><span id="lto-name" cvo-placeholder="Họ tên"
+                                          contenteditable="true">Nguyễn Văn Hưng</span></h1>
+                                <div id="lt-right">
+                                    <div class="ir">
+                                        <div class="box-02">
+                                            <div class="ic">
+                                                <p class="icf"><i class="fa">&#xf1fd;</i></p>
+                                                <p class="icoweb"><span id="user_to" cvo-placeholder="Ngày sinh"
+                                                                        contenteditable="true">16/07/1993</span></p>
+                                            </div>
+                                            <div class="ic">
+                                                <p class="icf"><i class="fa"></i></p>
+                                                <p class="icoweb"><span id="lto-address" cvo-placeholder="Địa chỉ"
+                                                                        contenteditable="true">Hà Nội</span></p>
+                                            </div>
+                                            <div class="ic">
+                                                <p class="icf"><i class="fa"></i></p>
+                                                <p class="icoweb"><span id="lto-phone" cvo-placeholder="Số điện thoại"
+                                                                        contenteditable="true">0333383630</span></p>
+                                            </div>
+                                            <div class="ic">
+                                                <p class="icf"><i class="fa"></i></p>
+                                                <p class="icoweb"><span id="lto-email" cvo-placeholder="Email"
+                                                                        contenteditable="true">hungitc.hubt@gmail.com</span>
+                                                </p>
+                                            </div>
+                                            <div class="clr"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="box-01"><div id="lto-about" cvo-placeholder="Giới thiệu bản thân" contenteditable="true"></div></div> -->
+                            <!-- lt-right  -->
+
+                            <!-- end lt-right  -->
+                        </div>
+                        <!-- end lt-top  -->
+
+
+                    </div>
+                    <p class="lto-day"><span contenteditable="true">Kính gửi: Ông/Bà [Tên]</span></p> <br>
+                    <p class="lto-day"><span contenteditable="true">[Vị trí / Phòng ban]</span></p> <br>
+                    <p class="lto-day"><span contenteditable="true">[Tên Công Ty]</span></p> <br>
+                    <p class="lto-day"><span contenteditable="true">[Địa chỉ]</span></p> <br>
+                    <p class="lto-day"><span id="lto-day" cvo-placeholder="Ngày viết thư" contenteditable="true">Hà Nội , Ngày 26 tháng 06 năm 2019</span>
+                    </p>
+                    <h2 id="title-job"><span id="lto-job" cvo-placeholder="Nghề nghiệp" contenteditable="true">Thư ứng tuyển [Vị trí công việc]</span>
+                    </h2>
+                </div>
+                <!-- end bg -->
+
+                <!-- lt-content  -->
+                <div id="lt-content">
+                    <div class="ir">
+                        <div id="lto-content" cvo-placeholder="Nội dung">
+                            <div contenteditable="false" class="content">
+                                Thưa ông/bà [Tên] <br>
+
+                                Thông qua website tìm việc làm <a href="https://123job.vn">123job.vn</a>…, tôi được biết Quý Công ty đang cần tuyển vị trí [Tên vị trí công việc] Tôi mong muốn được thử sức mình trong môi trường làm việc hết sức năng động của Quý Công ty. Với trình độ và kinh nghiệm hiện có, tôi tự tin có thể đảm nhiệm tốt vai trò này tại công ty [Tên công ty].
+                                <br>
+
+                                Như đã đề cập trong hồ sơ đính kèm, tôi có nhiều kinh nghiệm làm việc với các công ty … ở vị trí …. Vị trí này đã cho tôi…. [bạn viết ra những kinh nghiệm nổi trội phù hợp với vị trí ứng tuyển] với thành tích [bạn nêu thành tích tốt nhất bạn có được]. Ngoài ra, tôi còn có kinh nghiệm về … trong suốt thời gian làm việc với công ty …. – chuyên kinh doanh các mặt hàng … Là một trong nhiều sinh viên tốt nghiệp hàng đầu của trường Đại Học …, tôi hoàn toàn tự tin với vốn kiến thức về lĩnh vực … của mình.
+                                <br>
+
+                                Thêm vào đó, tôi có một năm kinh nghiệm làm việc cho một công ty kinh doanh … ở vị trí … sau khi tốt nghiệp. Tôi tin rằng đó là những nền tảng quý báu có thể giúp tôi hiểu rõ và đáp ứng tốt nhu cầu khách hàng của Quý Công ty.
+                                <br>
+
+                                Cám ơn ông/bà đã dành thời gian quý báu để xem xét thư xin việc này. Tôi rất mong ông/bà có thể sắp xếp một cuộc phỏng vấn trực tiếp gần đây nhất để tôi có thể trình bày rõ hơn về bản thân cũng như tìm hiểu thêm các yêu cầu chi tiết cho vị trí [Tên vị trí công việc] của [Tên công ty].
+                                <br> <br>
+                                Trân trọng. Xin cảm ơn!
+                                <br>
+                                Nguyễn Văn A <br>
+                                -------------------------------------------------------------------------------------------------------------------- <br>
+                                Cám ơn 123job đã mang đến cho chúng tôi <br>.
+                                Mẫu CV xin việc: 123job.vn/mẫu-cv
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end lt-content  -->
+            </div>
+        </div>
+        <form method="POST" enctype="multipart/form-data" action="" id="myForm">
+            <input type="hidden" id="ltid" name="ltid" value="189">
+            <input type="hidden" name="_token" id="token" value="oE1pBOc0kYguP69z3dzX">
+            <input type="hidden" name="img_val" id="img_val" value="">
+            <input type="hidden" name="lttype" id="lttype" value="thu">
+            <input type="hidden" id="uid_letter" name="uid" value="2971">
+            <input type="hidden" name="name_img" value="xây dựng">
+        </form>
+        <!--End giao dien mau thu -->
+    </div>
+
+    <div class="clr"></div>
+
+</div>
+
+
+<script src="js/plugins/cropper.js" type="text/javascript"></script>
+<script src="./js/main.js"></script>
+<script src="./js/lth.js"></script>
+<script src="./js/edit.js"></script>
+<script src="js/plugins/html2canvas.js"></script>
+<script src="js/plugins/jspdf.debug.js"></script>
+<script src="js/plugins/jquery.validate.min.js" async=""></script>
+<script src="./js/cv.js" async=""></script>
+
+<script type="text/javascript">
+    if ($(window).width() < 1180) {
+        $("footer,.hd_top").css("width", "1170");
+    }
+</script>
+<link rel="stylesheet" href="./css/font_css.css" media="all">
+</body>
+</html>

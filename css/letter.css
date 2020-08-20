@@ -1,0 +1,194 @@
+#form-letter{
+	width: 100%;
+	height: 1130px;
+	float: left;
+	color:#000000;
+	position: relative;
+	background-size: 100% 100%;
+}
+#lt-content{
+	position: relative;
+	width: 95%;
+	float: right;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+#lt-top{
+	color: #000000;
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+#bg{
+	float: left;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	width: 100%;
+}
+
+#lt-right{
+	margin: 0;
+	width: 60%;
+	position: relative;
+	float: left;
+	padding-left: 20px;
+}
+
+#lt-top h1{
+	width: 60%;
+	text-transform: uppercase;
+	display: block;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	margin-top: 25px;
+	text-align: left;
+	color: #9e325e;
+	float: left;
+	padding-left: 20px;
+}
+#lt-top h2{
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: capitalize;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 0
+}
+.box-01{
+	padding-top: 10px;
+	font-size: 14px;
+	width:100%;
+	float: left;
+	color: #ffffff
+}
+
+#lto-about{
+	margin: 5px 20px;
+	text-align: justify;
+}
+#lt-content .ir{
+	padding: 30px 15px;
+	padding-top: 0;
+
+}
+#lt-content p{
+	margin-bottom: 20px
+}
+#lt-content .ir a{
+	color: #323033
+}
+.box-hvt {
+    float: left;
+    width: 60%;
+}
+#lt-right .info{
+	background: #898989
+}
+#lt-right .box-02{
+/*	margin:20px;
+	margin-bottom: 0;
+	padding-top: 20px;*/
+	width:100%;
+	float: left;
+}
+#cvo-profile-avatar-wraper {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 160px;
+    height: 180px;
+    cursor: pointer;
+    margin-left: 35px;
+    border: 4px solid #9e325e;
+    z-index: 99;
+}
+img#cvo-profile-avatar{
+	width: 160px;
+	height: 180px;
+	float: left;
+}
+#lto-day{
+}
+.lto-day {
+    margin: 0;
+    padding: 0px 0px;
+    padding-top: 10px;
+    position: relative;
+    clear: both;
+    text-align: left;
+    padding-left: 35px;
+    padding-bottom: 5px;
+    width: 91%;
+    float: left;
+}
+#lto-content{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	line-height: 28px;
+}
+.ic{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+#form-letter .icf{
+	float: left;
+	font-size: 18px;
+	margin-bottom: 0;
+	width: 26px;
+	text-align: left;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+.ic .icoweb{
+	float: left;
+	width: 85%;
+	line-height: 24px;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+.icf .fa{
+	font-size: 18px;
+	color:#9e325e;
+	font-weight: normal;
+	margin-top: 0;
+	float: left
+}
+#form-letter p {
+    margin-top: 0;
+}
+#title-job {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    padding-left: 35px;
+    font-size: 14px;
+    font-weight: unset;
+    color: #000;
+    float: left;
+    width: 91%;
+}
+#content{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+#cvo-profile-avatar-wraper #cvo-profile-avatar{
+	width: 160px;
+	height: 180px;
+}
